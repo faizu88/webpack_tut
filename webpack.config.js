@@ -6,7 +6,6 @@ var entry = isEvnDevelopment ? ["./webpack_tut/src/main.js","webpack/hot/dev-ser
 : [ "./webpack_tut/src/main.js"];
 var plugins = isEvnDevelopment? [new webpack.HotModuleReplacementPlugin()] :[];
 
-
 module.exports = {
     entry:entry,
     output: {
