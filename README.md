@@ -2,7 +2,7 @@
 
 <b>Steps:</b>
 
-1. Clone the Repository (git clone https://github.com/faizu88/webpack_tut.git)
+1. Clone this Repository 
 
 2. Navigate to "webpack_tut" directory 
 
