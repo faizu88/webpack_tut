@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "rimraf ./webpack_tut/dist/main.bundled.js && webpack",
-    "dev": "node dev-server.js"
+    "build": "rimraf ./webpack_tut/dist/main.bundled.js && SET NODE_ENV=production&&webpack",
+    "dev": "SET NODE_ENV=development&& node dev-server.js"
   },
   "keywords": [],
   "author": "",

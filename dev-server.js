@@ -3,8 +3,6 @@ var devServer, webpack, config, path;
 devServer = require("webpack-dev-server");
 webpack = require("webpack");
 config=require("./webpack.config.js");
-path=require("path");
-
 var compiler = webpack(config);
 var server = new devServer(compiler,{
     hot:true,
@@ -14,6 +12,4 @@ var server = new devServer(compiler,{
         colors:true
     }
 });
-server.listen(8080,"localhost",function(){
-
-})
+server.listen(8080,"localhost",function(){});
